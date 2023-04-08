@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WindowCornerRadiusBug (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WindowCornerRadiusBug (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
