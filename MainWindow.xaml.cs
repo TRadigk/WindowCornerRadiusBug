@@ -23,7 +23,7 @@ namespace WindowCornerRadiusBug
             appWindow.TitleBar.ExtendsContentIntoTitleBar = true;
             var windowPresenter = (appWindow.Presenter as OverlappedPresenter);
             windowPresenter.SetBorderAndTitleBar(true, false);
-            //windowPresenter.IsResizable = false;
+            windowPresenter.IsResizable = false;
         }
 
         public static AppWindow GetAppWindowFromWindow(Window windowRef)
